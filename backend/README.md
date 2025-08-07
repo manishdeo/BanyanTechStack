@@ -1,7 +1,7 @@
 <div align="center">
   <h1>📺 TVMaze API Integration</h1>
   <p><strong>REST API for TVMaze integration with Spring Boot using comprehensive TvShow entity model</strong></p>
-  
+
   <p>
     <img src="https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=java" alt="Java 17+">
     <img src="https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?style=flat-square&logo=spring" alt="Spring Boot 3.x">
@@ -145,25 +145,25 @@ CREATE TABLE tv_show (
     official_site VARCHAR(500),
     web_channel VARCHAR(255),
     dvd_country VARCHAR(50),
-    
+
     -- Embedded Schedule
     schedule_time VARCHAR(10),
-    
+
     -- Embedded Rating
     rating_average DECIMAL(3,1),
-    
+
     -- Embedded Network
     network_id BIGINT,
     network_name VARCHAR(255),
     network_country_name VARCHAR(100),
     network_country_code VARCHAR(10),
     network_country_timezone VARCHAR(50),
-    
+
     -- Embedded Externals
     externals_tvrage INTEGER,
     externals_thetvdb INTEGER,
     externals_imdb VARCHAR(20),
-    
+
     -- Embedded Image
     image_medium VARCHAR(500),
     image_original VARCHAR(500)
@@ -658,5 +658,4 @@ CMD ["java", "-Xmx1g", "-jar", "app.jar"]
 <div align="center">
   <h2>🎉 Happy Coding!</h2>
   <p>For more information, visit the <a href="http://localhost:8080/swagger-ui.html">Swagger UI</a> when the application is running.</p>
-  <p><em>See <a href="EVALUATION.md">EVALUATION.md</a> for detailed project assessment.</em></p>
 </div>

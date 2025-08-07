@@ -661,5 +661,4 @@ CMD ["java", "-Xmx1g", "-jar", "app.jar"]
 <div align="center">
   <h2>🎉 Happy Coding!</h2>
   <p>For more information, visit the <a href="http://localhost:8080/swagger-ui.html">Swagger UI</a> when the application is running.</p>
-  <p><em>See <a href="EVALUATION.md">EVALUATION.md</a> for detailed project assessment.</em></p>
 </div>
